@@ -8,11 +8,11 @@
         body {
             font-family: Arial, sans-serif;
             text-align: center;
-            background-color: #f5f5f5; /* Lysere bakgrunn */
-            color: #333; /* Mørkere tekst for bedre lesbarhet */
+            background-color: #f5f5f5;
+            color: #333;
             margin: 0;
             padding: 20px;
-            background-image: linear-gradient(to bottom, #e0e0e0, #f0f0f0); /* Lys gradient */
+            background-image: linear-gradient(to bottom, #e0e0e0, #f0f0f0);
         }
         .logo-container {
             margin: 30px auto;
@@ -22,7 +22,7 @@
             max-width: 400px;
             width: 100%;
             height: auto;
-            filter: drop-shadow(0 2px 4px rgba(0,0,0,0.1)); /* Skygge for logo */
+            filter: drop-shadow(0 2px 4px rgba(0,0,0,0.1));
         }
         .container {
             max-width: 800px;
@@ -34,49 +34,34 @@
         }
         .join-button {
             display: inline-block;
-            margin: 10px 0;
-            padding: 12px 25px;
+            margin: 30px 0;
+            padding: 15px 30px;
+            background-color: #4CAF50;
             color: white;
             text-decoration: none;
             border-radius: 5px;
             font-weight: bold;
-            font-size: 16px;
+            font-size: 18px;
             transition: transform 0.3s, background-color 0.3s;
-            width: 200px;
-        }
-        .form-button {
-            background-color: #4CAF50;
-        }
-        .discord-button {
-            background-color: #5865F2;
-        }
-        .twitch-button {
-            background-color: #9147ff;
-        }
-        .x-button {
-            background-color: white; /* Hvit bakgrunn */
-            color: black; /* Svart tekst */
-            border: 1px solid #ddd; /* Ramme for bedre synlighet */
         }
         .join-button:hover {
             transform: scale(1.05);
-            opacity: 0.9;
+            background-color: #45a049;
         }
-        .join-buttons {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 10px;
-            margin: 30px 0;
+        .social-links {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
         }
-        .social-icons {
-            margin-top: 20px;
-        }
-        .social-icons a {
+        .social-links a {
             margin: 0 10px;
             color: #555;
             text-decoration: none;
-            font-size: 14px;
+            font-size: 15px;
+        }
+        .social-links a:hover {
+            color: #333;
+            text-decoration: underline;
         }
         h1 {
             color: #222;
@@ -92,14 +77,9 @@
         <h1>Velkommen til AC Strenua eSports</h1>
         <p>Ditt hjem for Pro Clubs på EAFC</p>
         
-        <div class="join-buttons">
-            <a href=https://docs.google.com/forms/d/e/1FAIpQLSeLV_7zZh_3wJizVU3ssSWsDpkI7ePxoV0FtkQ7CeTrAdkNfQ/viewform?usp=sharing&ouid=114260748398411634817" class="join-button form-button">Bli medlem!</a>
-            <a href="https://discord.gg/GRfxtrVJ" class="join-button discord-button">Join vår Discord</a>
-            <a href="https://www.twitch.tv/miiksern" class="join-button twitch-button">Følg oss på Twitch</a>
-            <a href="https://x.com/AC_Strenua_VPG" class="join-button x-button">Følg oss på X</a>
-        </div>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeLV_7zZh_3wJizVU3ssSWsDpkI7ePxoV0FtkQ7CeTrAdkNfQ/viewform?usp=sharing&ouid=114260748398411634817" class="join-button">Bli medlem!</a>
         
-        <div class="social-icons">
+        <div class="social-links">
             <a href="https://discord.gg/GRfxtrVJ">Discord</a> | 
             <a href="https://www.twitch.tv/miiksern">Twitch</a> | 
             <a href="https://x.com/AC_Strenua_VPG">X (Twitter)</a>
