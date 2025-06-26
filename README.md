@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AC Strenua eSports</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #121212;
+            color: white;
+            margin: 0;
+            padding: 20px;
+            background-image: linear-gradient(to bottom, #1a1a2e, #16213e);
+        }
+        .logo-container {
+            margin: 30px auto;
+            padding: 20px;
+        }
+        .logo {
+            max-width: 400px;
+            width: 100%;
+            height: auto;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .join-button {
+            display: inline-block;
+            margin: 30px 0;
+            padding: 15px 30px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            font-size: 18px;
+            transition: transform 0.3s, background-color 0.3s;
+        }
+        .join-button:hover {
+            background-color: #45a049;
+            transform: scale(1.05);
+        }
+        .social-links {
+            margin-top: 40px;
+        }
+        .social-links a {
+            margin: 0 10px;
+            color: #aaa;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo-container">
+            <img src="Strenua.png" alt="AC Strenua eSports Logo" class="logo">
+        </div>
+        
+        <h1>Velkommen til AC Strenua eSports</h1>
+        <p>Det offisielle elektroniske idrettslaget til AC Strenua</p>
+        
+        <a href="LENKE_TIL_DITT_GOOGLE_SKJEMA" class="join-button">Bli med i foreningen</a>
+        
+        <div class="social-links">
+            <!-- Eksempel på sosiale medier-lenker -->
+            <a href="#">Discord</a> | 
+            <a href="#">Twitch</a> | 
+            <a href="#">Twitter</a>
+        </div>
+    </div>
+</body>
+</html>
